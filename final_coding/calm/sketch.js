@@ -47,12 +47,13 @@ function mousePressed(){
                         
 function draw(){
     background (255);
+      text("press and enjoy", mouseX, mouseY, 500, 500);    
     for(var i = 0; i < balls.length; i++){
         balls[i].drawBall();
         balls[i].bounce();
         balls[i].moveBall();
         
-     text("press and enjoy", mouseX, mouseY, 500, 500);    
+   
         
     }
     
