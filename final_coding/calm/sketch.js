@@ -47,6 +47,8 @@ function mousePressed(){
                         
 function draw(){
     background (255);
+    
+    fill(140,190,155,80)''
       text("press and enjoy", mouseX, mouseY, 500, 500);    
     for(var i = 0; i < balls.length; i++){
         balls[i].drawBall();
