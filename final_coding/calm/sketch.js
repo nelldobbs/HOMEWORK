@@ -74,8 +74,8 @@ function Ball(x,y){
     this.speed = random(1);
     this.speedY = random(1);
     this.drawBall = function(){
-     fill(random(140), random(190), 155, random(80)) ;
-        random()
+     fill(random(140), random(190), 155, random(80));
+        
      noStroke();
      rect(this.x, this.y, this.size, this.size);
 }
