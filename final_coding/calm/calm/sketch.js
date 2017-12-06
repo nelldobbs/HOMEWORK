@@ -48,7 +48,7 @@ function mousePressed(){
 function draw(){
     background (255);
     
-    fill(140,190,155,80)
+    fill(140,190,155,80);
       text("press and enjoy", mouseX, mouseY, 500, 500);    
     for(var i = 0; i < balls.length; i++){
         balls[i].drawBall();
@@ -75,7 +75,7 @@ function Ball(x,y){
     this.speedY = random(1);
     this.drawBall = function(){
      fill(random(140), random(190), 155, random(80));
-       
+        
      noStroke();
      rect(this.x, this.y, this.size, this.size);
 }
@@ -92,6 +92,4 @@ function Ball(x,y){
         this.y = this.y + this.speedY;
     }
 }
-
-
 
